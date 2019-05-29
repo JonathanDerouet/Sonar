@@ -1,0 +1,54 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar-items {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    width: 50px;
+    background-color: rgb(165, 165, 165);
+}
+
+.sidebar-items > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar-items > ul > li {
+    height: 25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sidebar-items > ul > li:hover {
+    background-color: #666666;
+}
+
+.sidebar-contents {
+    position: absolute;
+    right: 50px;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 100%;
+}
+
+.sidebar-header {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-pane {
+    display: none;
+    background-color: rgba(165, 165, 165, 0.5);
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.icon {
+    display: inline-block;
+    margin: 2px;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-map-osm {
+    background-image: url('../images/icons/overlay/osm.png');
+    background-size: contain;
+}
+
+.icon-map-esri {
+    background-image: url('../images/icons/overlay/satellite.png');
+    background-size: contain;
+}
+
+.icon-plan-eau {
+    background-image: url('../images/icons/overlay/lake.png');
+    background-size: contain;
+}
+
+.icon-zico {
+    background-image: url('../images/icons/overlay/images.png');
+    background-size: contain;
+}
+
+.icon-parc-naturel {
+    background-image: url('../images/icons/overlay/forest.png');
+    background-size: contain;
+}
+
+.icon-zcs-sic {
+    background-image: url('../images/icons/overlay/plant.png');
+    background-size: contain;
+}
+
+.icon-sic {
+    background-image: url('../images/icons/overlay/plant.png');
+    background-size: contain;
+}
+
+.icon-zps {
+    background-image: url('../images/icons/overlay/plant.png');
+    background-size: contain;
+}
+
+.icon-arbre {
+    background-image: url('../images/icons/overlay/park.png');
+    background-size: contain;
+}

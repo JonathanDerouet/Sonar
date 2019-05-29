@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css"/>
+    <script src="dist/JQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="control-sidebar" class="leaflet-control-sidebar">
+
+    <div class="sidebar-contents">
+        <div id="map-backgroud" class="sidebar-pane">
+            <h1 class="sidebar-header">
+                Fond de carte
+            </h1>
+            <input id="osm-france-backgroud" type="radio" name="map-background" value="osm-france" checked/>
+            <label for="osm-france-backgroud">OpenStreetMap France</label><br/>
+
+            <input id="esri-satellite-backgroud" type="radio" name="map-background" value="esri-satellite"/>
+            <label for="esri-satellite-backgroud">ESRI Satellite</label>
+        </div>
+
+        <div id="map-layer" class="sidebar-pane">
+            <h1 class="sidebar-header">
+                Couche à ajouter
+            </h1>
+            <div id="layer-group-1" class="layer-group">
+                <h2>Catégories</h2>
+
+                <input id="categorie-espaces-boises" type="checkbox" checked/>
+                <label for="categorie-espaces-boises">Espaces boisés</label>
+
+                <input id="categorie-alignement" type="checkbox" checked/>
+                <label for="categorie-alignement">Alignements</label>
+
+                <input id="categorie-arbres-remarquables" type="checkbox" checked/>
+                <label for="categorie-arbres-remarquables">Arbres remarquables</label>
+
+            </div>
+
+            <div id="layer-group-2" class="layer-group">
+                <h2>Sources externes</h2>
+
+                <input id="externe-plan-eau" type="checkbox"/>
+                <label for="externe-plan-eau">Plan d'eau</label>
+
+                <input id="externe-zico" type="checkbox"/>
+                <label for="externe-zico">ZICO</label>
+
+                <input id="externe-parc-naturel" type="checkbox"/>
+                <label for="externe-parc-naturel">Parcs naturels</label>
+
+                <input id="externe-zsc-sic" type="checkbox"/>
+                <label for="externe-zsc-sic">ZCS - SIC</label>
+
+                <input id="externe-sic" type="checkbox"/>
+                <label for="externe-sic">Sites d'importance communautaire</label>
+
+                <input id="externe-zps" type="checkbox"/>
+                <label for="externe-zps">Zones de protection spéciale</label>
+            </div>
+        </div>
+
+        <div id="map-filter" class="sidebar-pane">
+            <h1 class="sidebar-header">
+                Filtrage des arbres remarquables
+            </h1>
+
+            <div class="inputs" id="type-arbre">
+                <input id="chenes" type="checkbox" class="type-arbre filtre" name="chenes" value="Chêne" checked="true">
+                <label for="chenes">chenes</label>
+
+                <input id="frenes" type="checkbox" class="type-arbre filtre" name="frenes" value="Frêne" checked="true">
+                <label for="frenes">frenes</label>
+
+                <input id="peupliers" type="checkbox" class="type-arbre filtre" name="peupliers" value="Peuplier"
+                       checked="true">
+                <label for="peupliers">peupliers</label>
+
+                <input id="pins" type="checkbox" class="type-arbre filtre" name="pins" value="Pin" checked="true">
+                <label for="pins">pins</label>
+
+                <input id="cedres" type="checkbox" class="type-arbre filtre" name="cedres" value="Cèdre" checked="true">
+                <label for="cedres">cedres</label>
+
+                <input id="erables" type="checkbox" class="type-arbre filtre" name="erables" value="Érable"
+                       checked="true">
+                <label for="erables">erables</label>
+
+                <input id="sequoias" type="checkbox" class="type-arbre filtre" name="sequoias" value="Séquoia"
+                       checked="true">
+                <label for="sequoias">sequoias</label>
+
+                <input id="platanes" type="checkbox" class="type-arbre filtre" name="platanes" value="Platane"
+                       checked="true">
+                <label for="platanes">platanes</label>
+
+                <input id="marronniers" type="checkbox" class="type-arbre filtre" name="marronniers" value="Marronnier"
+                       checked="true">
+                <label for="marronniers">marronniers</label>
+
+                <input id="chataigners" type="checkbox" class="type-arbre filtre" name="chataigners" value="Châtaigner"
+                       checked="true">
+                <label for="chataigners">chataigners</label>
+
+                <input id="hetres" type="checkbox" class="type-arbre filtre" name="hetres" value="Hêtre" checked="true">
+                <label for="hetres">hetres</label>
+
+                <input id="magnolias" type="checkbox" class="type-arbre filtre" name="magnolias" value="Magniolia"
+                       checked="true">
+                <label for="magnolias">magnolias</label>
+
+                <input id="tilleuls" type="checkbox" class="type-arbre filtre" name="tilleuls" value="Tilleul"
+                       checked="true">
+                <label for="tilleuls">tilleuls</label>
+
+                <input id="autres" type="checkbox" class="type-arbre filtre" name="autres" value="Autre" checked="true">
+                <label for="autres">autres</label>
+            </div>
+
+            <div class="inputs" id="remarquabilite">
+                <input id="exceptionnel" type="checkbox" class="remarquabilite filtre" name="exceptionnel"
+                       value="Très remarquable ou exceptionnel" checked="true">
+                <label for="exceptionnel">exceptionnel</label>
+
+                <input id="remarquable" type="checkbox" class="remarquabilite filtre" name="remarquable"
+                       value="Remarquable ou majestueux" checked="true">
+                <label for="remarquable">remarquable</label>
+
+                <input id="notoire" type="checkbox" class="remarquabilite filtre" name="notoire"
+                       value="Notoire, un repère à l'échelle de votre quartier" checked="true">
+                <label for="notoire">notoire</label>
+            </div>
+
+            <div class="inputs" id="verification">
+                <input id="verification-ok" type="checkbox" class="verification filtre" name="verification-ok"
+                       value="Oui" checked="true">
+                <label for="verification-ok">Vérifié par un botaniste</label>
+
+                <input id="verification-non" type="checkbox" class="verification filtre" name="verification-non"
+                       value="Non" checked="true">
+                <label for="verification-non">Par encore vérifié par un botaniste</label>
+            </div>
+
+            <div class="inputs" id="presence-espece">
+                <input id="presence-espece-ok" type="checkbox" class="presence-espece filtre" name="presence-espece-ok"
+                       value="Oui" checked="true">
+                <label for="presence-espece-ok">Présence espèce oui</label>
+
+                <input id="presence-espece-non" type="checkbox" class="presence-espece filtre"
+                       name="presence-espece-non" value="Non" checked="true">
+                <label for="presence-espece-non">Présence espèce non</label>
+            </div>
+        </div>
+
+        <div id="map-copyright" class="sidebar-pane">
+            <h1 class="sidebar-header">
+                Sources et attribution
+            </h1>
+
+            <p>Leaflet | Icon made by © Bukeicon and © Freepik, © Openstreetmap France | © OpenStreetMap
+                contributors</p>
+        </div>
+    </div>
+
+    <div class="sidebar-items">
+        <ul>
+            <li id="li-background">
+                <i class="fas fa-map-marked-alt"></i>
+            </li>
+            <li id="li-layer">
+                <i class="fas fa-layer-group"></i>
+            </li>
+            <li id="li-filter">
+                <i class="fas fa-filter"></i>
+            </li>
+            <li id="li-copyriht">
+                <i class="far fa-copyright"></i>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#li-background').click(function () {
+            $('#map-layer').hide();
+            $('#map-filter').hide();
+            $('#map-copyright').hide();
+            $('#map-backgroud').show();
+        });
+
+        $('#li-layer').click(function () {
+            $('#map-backgroud').hide();
+            $('#map-filter').hide();
+            $('#map-copyright').hide();
+            $('#map-layer').show();
+        });
+
+        $('#li-filter').click(function () {
+            $('#map-layer').hide();
+            $('#map-backgroud').hide();
+            $('#map-copyright').hide();
+            $('#map-filter').show();
+        });
+
+        $('#li-copyriht').click(function () {
+            $('#map-layer').hide();
+            $('#map-filter').hide();
+            $('#map-backgroud').hide();
+            $('#map-copyright').show();
+        });
+    });
+</script>
+
+</body>
+</html>

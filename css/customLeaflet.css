@@ -1,0 +1,52 @@
+.leaflet-panel-layers {
+    width: 60px;
+    min-width: 60px;
+}
+
+.leaflet-panel-layers-item {
+    min-width: 40px;
+}
+
+.leaflet-panel-layers-title span {
+    overflow-wrap: normal;
+}
+
+.leaflet-panel-layers-icon {
+    margin: auto;
+    padding: auto;
+}
+
+.leaflet-panel-layers-group {
+    background-color: white;
+}
+
+.leaflet-panel-layers-overlays {
+    margin-bottom: 50px;
+}
+
+.leaflet-panel-layers.expanded {
+    width: 200px;
+}
+
+.leaflet-panel-layers-list {
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.leaflet-panel-layers-list::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.leaflet-panel-layers-title {
+    white-space: normal !important;
+}
+
+.popup-image {
+    /*width: 80%;*/
+    height: 300px;
+}
+
+#sidebar {
+    z-index: 1;
+}

@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5325",
+                    "47.4412"
+                ]
+            },
+            "properties": {
+                "Identifiant": "158",
+                "Date": "10/05/19 17:03",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "Hentoine",
+                "Adresse de l'espace boisé": "Rue Edouard Guinel. Les Ponts de Cé",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "50",
+                "Nombre d'espèces": "oui",
+                "Niveaux": "* herbes * arbustes * arbres",
+                "Point d'eau": "saispas",
+                "Abris d'animaux": "* oui",
+                "Éclairage": "non",
+                "Ombre": "non",
+                "Entretien": "moyen",
+                "Globalement": "* biodiv * fraicheur * paysager",
+                "Biodiversité": "* écureuil * chauve-souris * capricorne * pic * autreHérisson"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5394",
+                    "47.443524"
+                ]
+            },
+            "properties": {
+                "Identifiant": "193",
+                "Date": "13/05/19 09:51",
+                "Photo": "00675765-E205-4C21-81E5-74499618FBB7.jpeg.zip (ZIP - 5.5 Mo)",
+                "Nom à afficher": "Hentoine",
+                "Adresse de l'espace boisé": "Chateau d’Orgemont, Angers",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "Entre 2 et 10",
+                "Nombre d'espèces": "Oui",
+                "Niveaux": "* strate herbacée (herbes) * strate arborée (arbres)",
+                "Point d'eau": "Non",
+                "Abris d'animaux": "* Oui",
+                "Éclairage": "Je ne sais pas",
+                "Ombre": "Je ne sais pas",
+                "Entretien": "Très peu ou pas du tout entretenu (pas d’entretien mécanisé, herbes hautes…)",
+                "Globalement": "* Un refuge important de biodiversité * Un espace paysager à protéger",
+                "Observations": "Tres beaux maronniers, chene Entree Ancienne allée du château d’orgemont"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.533515",
+                    "47.3993589"
+                ]
+            },
+            "properties": {
+                "Identifiant": "199",
+                "Date": "17/05/19 15:50",
+                "Photo": "15581006129971255663505.jpg (JPG - 2.5 Mo)",
+                "Nom à afficher": "Foufab",
+                "Adresse de l'espace boisé": "Parc du Jau, route de Cholet, Mûrs-Erigné",
+                "Visibilité": "public",
+                "Nombre d'arbres": "Entre 10 et 50",
+                "Nombre d'espèces": "Oui",
+                "Niveaux": "* strate herbacée (herbes) * strate arbustive (arbustes) * strate arborée (arbres)",
+                "Point d'eau": "Non",
+                "Abris d'animaux": "* Je ne sais pas",
+                "Éclairage": "Non",
+                "Ombre": "Non",
+                "Entretien": "Entretenu mais de manière plus douce (zones non fauchées…)",
+                "Globalement": "* Un refuge important de biodiversité * Un ilot de fraicheur * Un espace paysager à protéger",
+                "Observations": "Présence de chênes rouges d’Amérique, charmes. Très utilisé par les enfants pour se cacher.",
+                "Biodiversité": "* Un écureuil roux"
+            }
+        }
+    ]
+}

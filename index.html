@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+
+    <title>Main page</title>
+
+    <!--  CSS DIST IMPORT  -->
+    <link href="dist/Leaflet/leaflet.css" rel="stylesheet"/>
+    <link href="dist/PanelLayer/leaflet-panel-layers.css" rel="stylesheet"/>
+    <link href="dist/MarkerCluster/MarkerCluster.css" rel="stylesheet"/>
+    <link href="dist/MarkerCluster/MarkerCluster.Default.css" rel="stylesheet"/>
+    <link href="dist/LocateControl/L.Control.Locate.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/Sidebar/L.Control.Sidebar.css" rel="stylesheet">
+
+    <!--  Custom CSS  -->
+    <link href="css/map.css" rel="stylesheet"/>
+    <link href="css/customLeaflet.css" rel="stylesheet"/>
+    <link href="css/icon.css" rel="stylesheet"/>
+
+    <!--  JavaScript libraries  -->
+    <script src="dist/Leaflet/leaflet.js"></script>
+    <script src="dist/JQuery/jquery-3.4.1.min.js"></script>
+    <script src="dist/PanelLayer/leaflet-panel-layers.js"></script>
+    <script src="dist/LeafletProvider/leaflet-provider.js"></script>
+    <script src="dist/MarkerCluster/leaflet.markercluster-src.js"></script>
+    <script src="dist/MarkerCluster/LayerSupport/layersupport.js"></script>
+    <script src="dist/LocateControl/L.Control.Locate.js"></script>
+    <script src="dist/Sidebar/L.Control.Sidebar.js"></script>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="sidebar">
+    <h1>leaflet-sidebar</h1>
+</div>
+
+<b>Les filtres ne fonctionnent que sur les arbres remarquables.
+    Même si on décoche la couche arbres remarquables mais qu'on utilise les filtres, alors les arbres apparaissent sur la carte.</b>
+
+<div class="inputs" id="type-arbre">
+    <input id="chenes" type="checkbox" class="type-arbre filtre" name="chenes" value="Chêne" checked="true">
+    <label for="chenes">chenes</label>
+    <input id="frenes" type="checkbox" class="type-arbre filtre" name="frenes" value="Frêne" checked="true">
+    <label for="frenes">frenes</label>
+    <input id="peupliers" type="checkbox" class="type-arbre filtre" name="peupliers" value="Peuplier" checked="true">
+    <label for="peupliers">peupliers</label>
+    <input id="pins" type="checkbox" class="type-arbre filtre" name="pins" value="Pin" checked="true">
+    <label for="pins">pins</label>
+    <input id="cedres" type="checkbox" class="type-arbre filtre" name="cedres" value="Cèdre" checked="true">
+    <label for="cedres">cedres</label>
+    <input id="erables" type="checkbox" class="type-arbre filtre" name="erables" value="Érable" checked="true">
+    <label for="erables">erables</label>
+    <input id="sequoias" type="checkbox" class="type-arbre filtre" name="sequoias" value="Séquoia" checked="true">
+    <label for="sequoias">sequoias</label>
+    <input id="platanes" type="checkbox" class="type-arbre filtre" name="platanes" value="Platane" checked="true">
+    <label for="platanes">platanes</label>
+    <input id="marronniers" type="checkbox" class="type-arbre filtre" name="marronniers" value="Marronnier" checked="true">
+    <label for="marronniers">marronniers</label>
+    <input id="chataigners" type="checkbox" class="type-arbre filtre" name="chataigners" value="Châtaigner" checked="true">
+    <label for="chataigners">chataigners</label>
+    <input id="hetres" type="checkbox" class="type-arbre filtre" name="hetres" value="Hêtre" checked="true">
+    <label for="hetres">hetres</label>
+    <input id="magnolias" type="checkbox" class="type-arbre filtre" name="magnolias" value="Magniolia" checked="true">
+    <label for="magnolias">magnolias</label>
+    <input id="tilleuls" type="checkbox" class="type-arbre filtre" name="tilleuls" value="Tilleul" checked="true">
+    <label for="tilleuls">tilleuls</label>
+    <input id="autres" type="checkbox" class="type-arbre filtre" name="autres" value="Autre" checked="true">
+    <label for="autres">autres</label>
+</div>
+
+<div class="inputs" id="remarquabilite">
+    <input id="exceptionnel" type="checkbox" class="remarquabilite filtre" name="exceptionnel" value="Très remarquable ou exceptionnel" checked="true">
+    <label for="exceptionnel">exceptionnel</label>
+    <input id="remarquable" type="checkbox" class="remarquabilite filtre" name="remarquable" value="Remarquable ou majestueux" checked="true">
+    <label for="remarquable">remarquable</label>
+    <input id="notoire" type="checkbox" class="remarquabilite filtre" name="notoire" value="Notoire, un repère à l'échelle de votre quartier" checked="true">
+    <label for="notoire">notoire</label>
+</div>
+
+<div class="inputs" id="verification">
+    <input id="verification-ok" type="checkbox" class="verification filtre" name="verification-ok" value="Oui" checked="true">
+    <label for="verification-ok">Vérifié par un botaniste</label>
+    <input id="verification-non" type="checkbox" class="verification filtre" name="verification-non" value="Non" checked="true">
+    <label for="verification-non">Par encore vérifié par un botaniste</label>
+</div>
+
+<div class="inputs" id="presence-espece">
+    <input id="presence-espece-ok" type="checkbox" class="presence-espece filtre" name="presence-espece-ok" value="Oui" checked="true">
+    <label for="presence-espece-ok">Présence espèce oui</label>
+    <input id="presence-espece-non" type="checkbox" class="presence-espece filtre" name="presence-espece-non" value="Non" checked="true">
+    <label for="presence-espece-non">Présence espèce non</label>
+</div>
+
+<!--  JavaScript for the Leaflet map  -->
+<script src="js/leaflet-collapse.js"></script>
+<!--  JavaScript to handle markers and clustering  -->
+<script src="js/cluster.js"></script>
+<!--  JavaScript to handle location  -->
+<script src="js/locate.js"></script>
+
+</body>
+</html>

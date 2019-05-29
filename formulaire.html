@@ -1,0 +1,598 @@
+<!DOCTYPE>
+<html lang="fr">
+<head>
+    <title>Enregistrer un arbre - Inventaire des arbres angevins</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+
+    <!-- CSS FILES -->
+    <link href="dist/Leaflet/leaflet.css" rel="stylesheet"/>
+    <link href="dist/PanelLayer/leaflet-panel-layers.css" rel="stylesheet"/>
+    <link href="dist/MarkerCluster/MarkerCluster.css" rel="stylesheet"/>
+    <link href="dist/MarkerCluster/MarkerCluster.Default.css" rel="stylesheet"/>
+    <link href="dist/LocateControl/L.Control.Locate.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/Sidebar/L.Control.Sidebar.css" rel="stylesheet">
+
+    <link href="css/customLeaflet.css" rel="stylesheet"/>
+    <link href="css/icon.css" rel="stylesheet"/>
+    <link href="css/form.css" rel="stylesheet">
+
+    <!-- JavaScript libraries -->
+    <script type="application/javascript" src="dist/Leaflet/leaflet.js"></script>
+    <script type="application/javascript" src="dist/JQuery/jquery-3.4.1.min.js"></script>
+    <script type="application/javascript" src="dist/PanelLayer/leaflet-panel-layers.js"></script>
+    <script type="application/javascript" src="dist/LeafletProvider/leaflet-provider.js"></script>
+    <script type="application/javascript" src="dist/MarkerCluster/leaflet.markercluster-src.js"></script>
+    <script type="application/javascript" src="dist/MarkerCluster/LayerSupport/layersupport.js"></script>
+    <script type="application/javascript" src="dist/LocateControl/L.Control.Locate.js"></script>
+    <script src="dist/Sidebar/L.Control.Sidebar.js"></script>
+</head>
+
+<body style="margin-left: 20%">
+<div>
+    <a href="https://www.sauvegarde-anjou.org/arbres1/">Inventaire des arbres angevins</a>
+    <p>Par La Sauvegarde de l&#8217; Anjou</p>
+</div>
+
+<div>
+    <ul>
+        <li>Aide</li>
+        <li>Inventaire</li>
+        <li>Mentions</li>
+    </ul>
+</div>
+
+<div>
+    <div>
+        <div>
+            <p>Inventaire > Enregistrer un arbre</p>
+            <div>
+                <h1>Enregistrer un arbre</h1>
+                <p>vendredi 5 avril 2019, par AlainF</p>
+            </div>
+
+
+            <div>
+                <p>
+                    Pour enregistrer un arbre vous devez compléter les rubriques de ce formulaire. Tous les items ne
+                    sont pas obligatoires mais plus il y aura de rubriques emplies mieux cela sera.
+                </p>
+                <p>N'oubliez pas de valider en bas de page</p>
+
+                <div id="map"></div>
+
+                <div id="sidebar">
+                    <h1>leaflet-sidebar</h1>
+                </div>
+
+                <script src="js/leaflet-collapse.js"></script>
+                <script src="js/cluster.js"></script>
+                <script src="js/locate.js"></script>
+                <script src="js/displayLngLat.js"></script>
+
+                <div>
+                    <div>
+                        <form>
+                            <div>
+                                <div class="editer-groupe">
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_input_1 obligatoire saisie_input"
+                                         data-id="@5c88fef074a23">
+                                        <label for="champ_input_1">Votre nom et prénom (obligatoire)</label>
+                                        <input class="text" id="champ_input_1" name="input_1" size="40" type="text"/>
+                                    </div>
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_input_15 saisie_input" data-id="@5c965e44d5c38">
+                                        <label for="champ_input_15">Nom à afficher</label>
+                                        <p class="explication" id="explication_input_15">Vous pouvez mettre ici un
+                                            pseudonyme qui ne servira que pour l'affichage</p>
+                                        <input aria-describedby="explication_input_15" class="text nom"
+                                               id="champ_input_15" name="input_15" size="40" type="text"/>
+                                    </div>
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_email_1 saisie_email" data-id="@5c88ff913be8e">
+                                        <label for="champ_email_1">Votre adresse courriel</label>
+                                        <p class="explication" id="explication_email_1">Pour vous contacter si
+                                            nécessaire (exclusivement)</p>
+                                        <input aria-describedby="explication_email_1" class="text email"
+                                               id="champ_email_1" name="email_1" size="40" type="text"/>
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_radio_3 saisie_radio" data-id="@5ca4b3c8ac43c">
+                                        <label>Nom de l'arbre</label>
+                                        <p class="explication" id="explication_radio_3">Connaissez-vous le nom de cet
+                                            arbre ? Si oui complétez</p>
+
+                                        <div class="choix choix_Chêne">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_1" name="radio_3"
+                                                   type="radio" value="Chêne"/>
+                                            <label for="champ_radio_3_1">Chêne</label>
+                                        </div>
+
+                                        <div class="choix choix_Frêne">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_2" name="radio_3"
+                                                   type="radio" value="Frêne"/>
+                                            <label for="champ_radio_3_2">Frêne</label>
+                                        </div>
+
+                                        <div class="choix choix_Peuplier">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_3" name="radio_3"
+                                                   type="radio" value="Peuplier"/>
+                                            <label for="champ_radio_3_3">Peuplier</label>
+                                        </div>
+
+                                        <div class="choix choix_Pin">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_4" name="radio_3"
+                                                   type="radio" value="Pin"/>
+                                            <label for="champ_radio_3_4">Pin</label>
+                                        </div>
+
+                                        <div class="choix choix_Cèdre">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_5" name="radio_3"
+                                                   type="radio" value="Cèdre"/>
+                                            <label for="champ_radio_3_5">Cèdre</label>
+                                        </div>
+
+                                        <div class="choix choix_Érable">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_6" name="radio_3"
+                                                   type="radio" value="Érable"/>
+                                            <label for="champ_radio_3_6">Érable</label>
+                                        </div>
+
+                                        <div class="choix choix_Séquoia">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_7" name="radio_3"
+                                                   type="radio" value="Séquoia"/>
+                                            <label for="champ_radio_3_7">Séquoia</label>
+                                        </div>
+
+                                        <div class="choix choix_Platane">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_8" name="radio_3"
+                                                   type="radio" value="Platane"/>
+                                            <label for="champ_radio_3_8">Platane</label>
+                                        </div>
+
+                                        <div class="choix choix_Marronnier">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_9" name="radio_3"
+                                                   type="radio" value="Marronnier"/>
+                                            <label for="champ_radio_3_9">Marronnier</label>
+                                        </div>
+
+                                        <div class="choix choix_Châtaigner">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_10" name="radio_3"
+                                                   type="radio" value="Châtaigner"/>
+                                            <label for="champ_radio_3_10">Châtaigner</label>
+                                        </div>
+
+                                        <div class="choix choix_Hêtre">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_11" name="radio_3"
+                                                   type="radio" value="Hêtre"/>
+                                            <label for="champ_radio_3_11">Hêtre</label>
+                                        </div>
+
+                                        <div class="choix choix_Magnolia">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_12" name="radio_3"
+                                                   type="radio" value="Magnolia"/>
+                                            <label for="champ_radio_3_12">Magnolia</label>
+                                        </div>
+
+                                        <div class="choix choix_Tilleul">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_13" name="radio_3"
+                                                   type="radio" value="Tilleul"/>
+                                            <label for="champ_radio_3_13">Tilleul</label>
+                                        </div>
+
+                                        <div class="choix choix_autre">
+                                            <input aria-describedby="explication_radio_3" class="radio"
+                                                   id="champ_radio_3_14" name="radio_3"
+                                                   type="radio" value="autre"/>
+                                            <label for="champ_radio_3_14">Autre (précisez ci-dessous)</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="editer editer_input_7 saisie_input"
+                                         data-afficher_si="@radio_3@==&quot;autre&quot;"
+                                         data-id="@5ca4b8a7b771c">
+                                        <label for="champ_input_7">Autre nom de l'arbre</label>
+
+                                        <input class="text" id="champ_input_7" name="input_7" size="40"
+                                               type="text"/>
+                                    </div>
+
+                                    <div class="editer editer_input_2 saisie_input" data-id="@5ca709827adf4">
+                                        <label for="champ_input_2">Nom botanique</label>
+                                        <p class="explication" id="explication_input_2">Nom botanique (exemple :
+                                            Quercus petraea) si vous le connaissez</p>
+                                        <input aria-describedby="explication_input_2" class="text"
+                                               id="champ_input_2" name="input_2" size="40"
+                                               type="text"/>
+                                    </div>
+
+                                    <div class="editer saisie_session_email" style="display: none;">
+                                        <label for="give_me_your_email">Veuillez laisser ce champ vide :</label>
+                                        <input class="text email" id="give_me_your_email" name="email_nobot" size="10"
+                                               type="text" value=""/>
+                                    </div>
+
+                                    <div class="editer editer_input_4 obligatoire saisie_input"
+                                         data-id="@5c8901bea8680">
+                                        <label for="champ_input_4">Latitude(obligatoire)</label>
+
+                                        <p class="explication" id="explication_input_4">Pour de l'aide</p>
+
+                                        <input aria-describedby="explication_input_4" class="text" id="champ_input_4"
+                                               name="input_4" size="40" type="text"/>
+                                    </div>
+
+                                    <div class="editer editer_input_5 obligatoire saisie_input"
+                                         data-id="@5c89026b93fa9">
+                                        <label for="champ_input_5">Longitude(obligatoire)</label>
+
+                                        <p class="explication" id="explication_input_5">Pour de l'aide</p>
+
+                                        <input aria-describedby="explication_input_5" class="text"
+                                               id="champ_input_5" name="input_5" size="40"
+                                               type="text"/>
+                                    </div>
+
+                                    <div class="editer editer_input_6 obligatoire saisie_input"
+                                         data-id="@5c8902d3a43af">
+                                        <label for="champ_input_6">Adresse de l'arbre (obligatoire)</label>
+                                        <p class="explication" id="explication_input_6">N°, rue, ville</p>
+                                        <input aria-describedby="explication_input_6" class="text"
+                                               id="champ_input_6" name="input_6" size="40"
+                                               type="text"/>
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_fichiers_1 saisie_fichiers" data-id="@5c90f7a3c1daf">
+                                        <label>Photo</label>
+
+                                        <p class="explication" id="explication_fichiers_1">Envoyez une photo de
+                                            l'arbre</p>
+
+                                        <div class="choix">
+
+                                            <input accept="image/jpeg,image/png,image/gif" class="file"
+                                                   id="fichiers_1_0" name="fichiers_1[0]"
+                                                   size="40" type="file"/>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_radio_2 obligatoire saisie_radio"
+                                         data-id="@5ca0f40aa7809">
+                                        <label>Cet arbre est sur<span
+                                                class='obligatoire'>  (obligatoire)</span></label>
+
+
+                                        <div class="choix choix_public">
+                                            <input class="radio" id="champ_radio_2_1" name="radio_2" type="radio"
+                                                   value="public"/>
+                                            <label for="champ_radio_2_1">un espace public</label>
+                                        </div>
+
+                                        <div class="choix choix_privé">
+                                            <input class="radio" id="champ_radio_2_2" name="radio_2" type="radio"
+                                                   value="privé"/>
+                                            <label for="champ_radio_2_2">un espace privé</label>
+                                        </div>
+
+                                        <div class="choix choix_saispas">
+                                            <input class="radio" id="champ_radio_2_3" name="radio_2" type="radio"
+                                                   value="saispas"/>
+                                            <label for="champ_radio_2_3">Je ne sais pas</label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_checkbox_1 saisie_checkbox" data-id="@5ca0f5251431d">
+                                        <label>Remarquable</label>
+
+                                        <p class="explication" id="explication_checkbox_1">Cet arbre est remarquable
+                                            du fait de (cochez)</p>
+
+                                        <div class="choix choix_hauteur">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_6c45aea317ce7b1c740da19974d95b0d"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="hauteur"/>
+
+                                            <label for="champ_checkbox_1_6c45aea317ce7b1c740da19974d95b0d">sa
+                                                hauteur</label>
+                                        </div>
+
+
+                                        <div class="choix choix_importance">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_9b70e00304a41dd300ccbef511cd77f3"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="importance"/>
+
+                                            <label for="champ_checkbox_1_9b70e00304a41dd300ccbef511cd77f3">il est
+                                                imposant</label>
+                                        </div>
+
+
+                                        <div class="choix choix_ancien">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_a8764d5dc3bf23dc714bcb4308435d09"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="ancien"/>
+
+                                            <label for="champ_checkbox_1_a8764d5dc3bf23dc714bcb4308435d09">son
+                                                ancienneté (plus de 50 ans)</label>
+                                        </div>
+
+
+                                        <div class="choix choix_rare">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_6e30a7f233c22754629f6657e8e41c11"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="rare"/>
+
+                                            <label for="champ_checkbox_1_6e30a7f233c22754629f6657e8e41c11">sa rareté
+                                                à Angers</label>
+                                        </div>
+
+
+                                        <div class="choix choix_marquant">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_6434530a2cba5a9fd325077830fb4e67"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="marquant"/>
+
+                                            <label for="champ_checkbox_1_6434530a2cba5a9fd325077830fb4e67">marquant
+                                                dans le paysage</label>
+                                        </div>
+
+
+                                        <div class="choix choix_valeur">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_a296137693843a6186b6eb5f3f9e1c88"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="valeur"/>
+
+                                            <label for="champ_checkbox_1_a296137693843a6186b6eb5f3f9e1c88">la mise
+                                                en valeur mutuelle bati-végétal</label>
+                                        </div>
+
+
+                                        <div class="choix choix_autre">
+                                            <input aria-describedby="explication_checkbox_1"
+                                                   class="checkbox checkbox_checkbox_1"
+                                                   id="champ_checkbox_1_7ed39d3f5b4ec6ea8916cddacefcc3fa"
+                                                   name="checkbox_1[]"
+                                                   type="checkbox" value="autre"/>
+
+                                            <label for="champ_checkbox_1_7ed39d3f5b4ec6ea8916cddacefcc3fa">autre
+                                                (précisez ci-dessous)</label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_input_3 saisie_input"
+                                         data-afficher_si="@checkbox_1@==&quot;autre&quot;"
+                                         data-id="@5ca75a64cf4e5">
+                                        <label for="champ_input_3">Autre</label>
+
+
+                                        <input class="text" id="champ_input_3" name="input_3" size="40"
+                                               type="text"/>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_checkbox_2 saisie_checkbox" data-id="@5ca0f6d8b0adf">
+                                        <label>Biodiversité</label>
+
+                                        <p class="explication" id="explication_checkbox_2">Si vous savez que cet
+                                            arbre héberge un ou plusieurs spécimens d'espèce protégée, cochez.</p>
+
+                                        <div class="choix choix_écureuil">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_77bc39b58c94eae53d251eb9b23c5b7c"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="écureuil"/>
+
+                                            <label for="champ_checkbox_2_77bc39b58c94eae53d251eb9b23c5b7c">Un
+                                                écureuil roux</label>
+                                        </div>
+
+
+                                        <div class="choix choix_chauve-souris">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_d76f2c162d038801facfc97cc597d624"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="chauve-souris"/>
+
+                                            <label for="champ_checkbox_2_d76f2c162d038801facfc97cc597d624">Une
+                                                chauve-souris</label>
+                                        </div>
+
+
+                                        <div class="choix choix_capricorne">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_1a139f20152f24c4ed59e6af32c10d93"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="capricorne"/>
+
+                                            <label for="champ_checkbox_2_1a139f20152f24c4ed59e6af32c10d93">Un
+                                                capricorne</label>
+                                        </div>
+
+
+                                        <div class="choix choix_chouette">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_916f6cea8c14c0a9dcefc5811e1627e9"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="chouette"/>
+
+                                            <label for="champ_checkbox_2_916f6cea8c14c0a9dcefc5811e1627e9">Une
+                                                chouette hulotte</label>
+                                        </div>
+
+
+                                        <div class="choix choix_pic">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_ed92210ab1fb79298c5a9862f5815a39"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="pic"/>
+
+                                            <label for="champ_checkbox_2_ed92210ab1fb79298c5a9862f5815a39">Un pic
+                                                vert, noir, ...</label>
+                                        </div>
+
+
+                                        <div class="choix choix_autre">
+                                            <input aria-describedby="explication_checkbox_2"
+                                                   class="checkbox checkbox_checkbox_2"
+                                                   id="champ_checkbox_2_7ed39d3f5b4ec6ea8916cddacefcc3fa"
+                                                   name="checkbox_2[]"
+                                                   type="checkbox" value="autre"/>
+
+                                            <label for="champ_checkbox_2_7ed39d3f5b4ec6ea8916cddacefcc3fa">Autre (et
+                                                précisez ci-dessous)</label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_input_8 saisie_input"
+                                         data-afficher_si="@checkbox_2@==&quot;autre&quot;"
+                                         data-id="@5ca75aeb85a20">
+                                        <label for="champ_input_8">Autre espèce protégée</label>
+
+
+                                        <input class="text" id="champ_input_8" name="input_8" size="40"
+                                               type="text"/>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_radio_1 obligatoire saisie_radio"
+                                         data-id="@5c9912530c097">
+                                        <label>Remarquabilité<span
+                                                class='obligatoire'>  (obligatoire)</span></label>
+
+                                        <p class="explication" id="explication_radio_1">Globalement, cet arbre est
+                                            pour vous (Cochez votre choix)</p>
+
+                                        <div class="choix choix_Très remarquable ou exceptionnel">
+                                            <input aria-describedby="explication_radio_1" class="radio"
+                                                   id="champ_radio_1_1" name="radio_1"
+                                                   type="radio"
+                                                   value="Très remarquable ou exceptionnel"/>
+                                            <label for="champ_radio_1_1">Très remarquable ou exceptionnel</label>
+                                        </div>
+
+                                        <div class="choix choix_Remarquable ou majestueux">
+                                            <input aria-describedby="explication_radio_1" class="radio"
+                                                   id="champ_radio_1_2" name="radio_1"
+                                                   type="radio"
+                                                   value="Remarquable ou majestueux"/>
+                                            <label for="champ_radio_1_2">Remarquable ou majestueux</label>
+                                        </div>
+
+                                        <div class="choix choix_Notoire">
+                                            <input aria-describedby="explication_radio_1" class="radio"
+                                                   id="champ_radio_1_3" name="radio_1"
+                                                   type="radio" value="Notoire"/>
+                                            <label for="champ_radio_1_3">Notoire, un repère à l'échelle de votre
+                                                quartier</label>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_textarea_4 saisie_textarea" data-id="@5c890e47a0950">
+                                        <label for="champ_textarea_4">Observations</label>
+
+
+                                        <textarea class="" cols="40" id="champ_textarea_4" name="textarea_4"
+                                                  rows="5"></textarea>
+                                    </div>
+
+
+                                    <!--!inserer_saisie_editer-->
+                                    <div class="editer editer_radio_4 obligatoire saisie_radio"
+                                         data-id="@5cb05d422bc2e">
+                                        <label>Informations vérifiées sur site par un botaniste ?<span
+                                                class='obligatoire'>  (obligatoire)</span></label>
+
+                                        <p class="explication" id="explication_radio_4">Le botaniste n'est pas
+                                            obligatoire mais la réponse à cette question l'est.</p>
+
+                                        <div class="choix choix_oui">
+                                            <input aria-describedby="explication_radio_4" class="radio"
+                                                   id="champ_radio_4_1" name="radio_4"
+                                                   type="radio" value="oui"/>
+                                            <label for="champ_radio_4_1">Oui</label>
+                                        </div>
+
+                                        <div class="choix choix_non">
+                                            <input aria-describedby="explication_radio_4" class="radio"
+                                                   id="champ_radio_4_2" name="radio_4"
+                                                   type="radio" value="non"/>
+                                            <label for="champ_radio_4_2">Non</label>
+                                        </div>
+                                    </div>
+
+                                    <div id="afficher_si_700682799" style="display:none;">
+                                    </div>
+                                    <div style="display:none;">
+                                        <label for="mechantrobot-1">Veuillez laisser ce champ vide :</label>
+                                        <input id="mechantrobot-1" name="mechantrobot" type="text" value=""/>
+                                    </div>
+                                </div>
+
+                                <input class="submit" type="submit" value="Enregistrer"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!--.content-->
+        </div><!--.wrapper-->
+    </div><!--.main-->
+</div>
+</body>
+</html>

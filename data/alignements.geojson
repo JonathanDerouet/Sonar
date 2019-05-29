@@ -1,0 +1,201 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "0.027235150337219242",
+                    "47.453859602490304"
+                ]
+            },
+            "properties": {
+                "Identifiant": "43",
+                "Date": "29/04/19 11:56",
+                "Photo": "Marronier Mouliherne.jpg (JPG - 65.7 ko)",
+                "Nom à afficher": "toto",
+                "Adresse de l'alignement": "Lieu-dit La croix Millet, 49390 Mouliherne",
+                "Visibilité": "choix1",
+                "Nombre d'arbres": "privé",
+                "Protection": "* importance * ancien",
+                "Observations": "Classé plus gros arbre de France (il me semble) Classé parmi le classement des 50 plus remarquables arbres de France par le Figaro en 2018",
+                "Vérification": "Marronnier"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514913",
+                    "47.4861523"
+                ]
+            },
+            "properties": {
+                "Identifiant": "46",
+                "Date": "29/04/19 12:02",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "sorbier",
+                "Adresse de l'alignement": "111 rue haute d ereculée",
+                "Visibilité": "Notoire",
+                "Nombre d'arbres": "privé",
+                "Protection": "* marquant",
+                "Observations": "coordonnées à rectifier (domicile) + photo à suivre",
+                "Vérification": "autre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514913",
+                    "47.4861523"
+                ]
+            },
+            "properties": {
+                "Identifiant": "47",
+                "Date": "29/04/19 12:04",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "tulipier",
+                "Adresse de l'alignement": "85 rue haute d ereculée",
+                "Visibilité": "Notoire",
+                "Nombre d'arbres": "privé",
+                "Protection": "* marquant",
+                "Observations": "coordonnées à rectifier (domicile) + photo à suivre",
+                "Vérification": "autre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514858",
+                    "47.4861503"
+                ]
+            },
+            "properties": {
+                "Identifiant": "49",
+                "Date": "29/04/19 12:08",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Adresse de l'alignement": "6-58 promenade de reculée",
+                "Visibilité": "public",
+                "Nombre d'arbres": "plus30",
+                "Nombre d'espèces": "1",
+                "Nom botanique": "christophe lesort",
+                "Protection": "* continuité * paysager * fraicheur * remarquable",
+                "Observations": "l’alignement est également relié avec l’alignement en aval (n°s 60 et suivants de la promenade de reculée), rasés récemment, qui, quoique malheureusement replanté d’amélanchiers, constitue la continuité de la trame arboricole. Coordonnées à rectifier (domicile) + photo à suivre",
+                "Vérification": "non",
+                "Espèces": "* Platane",
+                "Lien": "* alignement * autrecorridor naturel des berges de la Maine avec toutes ses composantes dans les basses vallées angevines + relations avec les jardins végétalisés en terrasses en front du village."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6210916489",
+                    "47.4061283851"
+                ]
+            },
+            "properties": {
+                "Identifiant": "136",
+                "Date": "06/05/19 17:43",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "toto",
+                "Adresse de l'alignement": "Bouchemaine",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "moins10",
+                "Nombre d'espèces": "1",
+                "Nom botanique": "Tilia × europaea",
+                "Protection": "* fraicheur",
+                "Observations": "Allée promenade",
+                "Vérification": "oui",
+                "Espèces": "* Tilleul",
+                "Lien": "* Parcs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6102539",
+                    "47.422283"
+                ]
+            },
+            "properties": {
+                "Identifiant": "139",
+                "Date": "06/05/19 17:58",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "toto",
+                "Adresse de l'alignement": "Bouchemaine",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "moins10",
+                "Nombre d'espèces": "2",
+                "Nom botanique": "Tilia tomentosa et Tilia americana",
+                "Protection": "* paysager",
+                "Observations": "Mise en valeur du front de Loire bâti",
+                "Vérification": "oui",
+                "Espèces": "* Tilleul",
+                "Lien": "* Parcs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6188131124",
+                    "47.4077612326"
+                ]
+            },
+            "properties": {
+                "Identifiant": "147",
+                "Date": "06/05/19 18:11",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "toto",
+                "Adresse de l'alignement": "Bouchemaine",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "moins10",
+                "Nombre d'espèces": "1",
+                "Nom botanique": "Tilia x europaea",
+                "Protection": "* paysager",
+                "Observations": "Front de Loire",
+                "Vérification": "oui",
+                "Espèces": "* Tilleul",
+                "Lien": "* Parcs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6187943369",
+                    "47.4081043147"
+                ]
+            },
+            "properties": {
+                "Identifiant": "150",
+                "Date": "06/05/19 18:14",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "toto",
+                "Adresse de l'alignement": "Bouchemaine",
+                "Visibilité": "privé",
+                "Nombre d'arbres": "moins10",
+                "Nombre d'espèces": "1",
+                "Nom botanique": "Tilia tomentosa",
+                "Protection": "* paysager * fraicheur",
+                "Observations": "Front de Loire",
+                "Vérification": "oui",
+                "Espèces": "* Tilleul",
+                "Lien": "* Parcs"
+            }
+        }
+    ]
+}

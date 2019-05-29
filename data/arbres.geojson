@@ -1,0 +1,1219 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6102285",
+                    "47.4223217"
+                ]
+            },
+            "properties": {
+                "Identifiant": "40",
+                "Date": "23/04/19 10:39",
+                "Nom de l'arbre": "Bouleau verruqueux",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Betula pendula",
+                "Adresse": "17 rue des Saulniers, Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Vérification": "Oui",
+                "Remaquable": "* sa rareté à Angers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6222872436",
+                    "47.4073779854"
+                ]
+            },
+            "properties": {
+                "Identifiant": "41",
+                "Date": "23/04/19 10:42",
+                "Nom de l'arbre": "Châtaigner",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "M.Lietout et JL Gaignard",
+                "Nom botanique": "Castanea sativa",
+                "Adresse": "7 chemin des cavaliers, Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Vérification": "Oui",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6208080053",
+                    "47.4068372595"
+                ]
+            },
+            "properties": {
+                "Identifiant": "42",
+                "Date": "23/04/19 10:44",
+                "Nom de l'arbre": "Glycine de Chine",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Wisteria sinensis",
+                "Adresse": "22, rue des Saulniers, Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "0.027235150337219242",
+                    "47.453859602490304"
+                ]
+            },
+            "properties": {
+                "Identifiant": "43",
+                "Date": "23/04/19 21:11",
+                "Nom de l'arbre": "Marronnier",
+                "Photo": "Marronier Mouliherne.jpg (JPG - 65.7 ko)",
+                "Nom à afficher": "Emmanuel",
+                "Adresse": "Lieu-dit La croix Millet, 49390 Mouliherne",
+                "Visibilité": "un espace privé",
+                "Observations": "Classé plus gros arbre de France (il me semble) Classé parmi le classement des 50 plus remarquables arbres de France par le Figaro en 2018",
+                "Vérification": "Non",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514907",
+                    "47.4861504"
+                ]
+            },
+            "properties": {
+                "Identifiant": "44",
+                "Date": "27/04/19 11:37",
+                "Nom de l'arbre": "Magnolia",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Nom botanique": "christophe lesort",
+                "Adresse": "place du village de reculée",
+                "Visibilité": "un espace public",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Non",
+                "Remaquable": "* il est imposant * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514907",
+                    "47.4861504"
+                ]
+            },
+            "properties": {
+                "Identifiant": "45",
+                "Date": "27/04/19 11:41",
+                "Nom de l'arbre": "Cèdre",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Nom botanique": "christophe lesort",
+                "Adresse": "15 rue haute de reculée",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Non",
+                "Remaquable": "* sa hauteur * il est imposant * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514913",
+                    "47.4861523"
+                ]
+            },
+            "properties": {
+                "Identifiant": "46",
+                "Date": "27/04/19 13:02",
+                "Nom de l'arbre": "sorbier",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Adresse": "111 rue haute d ereculée",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Non",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514913",
+                    "47.4861523"
+                ]
+            },
+            "properties": {
+                "Identifiant": "47",
+                "Date": "27/04/19 13:04",
+                "Nom de l'arbre": "tulipier",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Nom botanique": "christophe lesort",
+                "Adresse": "85 rue haute d ereculée",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Non",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.5514819",
+                    "47.4861806"
+                ]
+            },
+            "properties": {
+                "Identifiant": "48",
+                "Date": "27/04/19 13:06",
+                "Nom de l'arbre": "mimosa",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "accl",
+                "Adresse": "58 rue haute de reculée",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Non",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6181801111",
+                    "47.4097205374"
+                ]
+            },
+            "properties": {
+                "Identifiant": "103",
+                "Date": "06/05/19 15:07",
+                "Nom de l'arbre": "Auraucaria",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Araucaria araucana",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa rareté à Angers * autre (précisez ci-dessous)unique à La Pointe et jeune"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6222862378",
+                    "47.4060482844"
+                ]
+            },
+            "properties": {
+                "Identifiant": "104",
+                "Date": "06/05/19 15:09",
+                "Nom de l'arbre": "Peuplier",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Populus nigra",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6176855788",
+                    "47.4098144733"
+                ]
+            },
+            "properties": {
+                "Identifiant": "105",
+                "Date": "06/05/19 15:13",
+                "Nom de l'arbre": "Cyprès de l’Arizona",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Cupressus arizonica",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.617515929",
+                    "47.4099179387"
+                ]
+            },
+            "properties": {
+                "Identifiant": "106",
+                "Date": "06/05/19 15:16",
+                "Nom de l'arbre": "Cyprès commun",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Cupressus sempervirens",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6186515093",
+                    "47.4112738615"
+                ]
+            },
+            "properties": {
+                "Identifiant": "107",
+                "Date": "06/05/19 15:21",
+                "Nom de l'arbre": "Chêne",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Quercus rubra",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace public",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.61026",
+                    "47.422267999999995"
+                ]
+            },
+            "properties": {
+                "Identifiant": "108",
+                "Date": "06/05/19 15:29",
+                "Nom de l'arbre": "Sapin Douglas",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Pseudotsuga menziesii",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace public",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans) * marquant dans le paysage",
+                "Biodiversité": "* Un pic vert, noir, ..."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6177338585",
+                    "47.4117761975"
+                ]
+            },
+            "properties": {
+                "Identifiant": "109",
+                "Date": "06/05/19 15:34",
+                "Nom de l'arbre": "Platane",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Platanus",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Très remarquable ou exceptionnel",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage",
+                "Biodiversité": "* Un pic vert, noir, ..."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.618126",
+                    "47.412721"
+                ]
+            },
+            "properties": {
+                "Identifiant": "110",
+                "Date": "06/05/19 15:37",
+                "Nom de l'arbre": "Peuplier",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Populus × canescens",
+                "Adresse": "pont du ru du Pont laitier, Bouchemaine",
+                "Visibilité": "un espace public",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.618541874",
+                    "47.409327094"
+                ]
+            },
+            "properties": {
+                "Identifiant": "111",
+                "Date": "06/05/19 15:40",
+                "Nom de l'arbre": "Libocèdre",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Calocedrus decurrens",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal * autre (précisez ci-dessous)rare à Bouchemaine",
+                "Biodiversité": "* Un pic vert, noir, ..."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6190937385",
+                    "47.408154007"
+                ]
+            },
+            "properties": {
+                "Identifiant": "112",
+                "Date": "06/05/19 15:43",
+                "Nom de l'arbre": "If commun",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Taxus baccata",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.61807",
+                    "47.41034"
+                ]
+            },
+            "properties": {
+                "Identifiant": "113",
+                "Date": "06/05/19 15:44",
+                "Nom de l'arbre": "If commun",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Taxus baccata",
+                "Adresse": "Château du Petit Serrant Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6102585",
+                    "47.4223061"
+                ]
+            },
+            "properties": {
+                "Identifiant": "114",
+                "Date": "06/05/19 15:49",
+                "Nom de l'arbre": "Epicéa commun",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Picea abies",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.621468164",
+                    "47.406128612"
+                ]
+            },
+            "properties": {
+                "Identifiant": "115",
+                "Date": "06/05/19 15:52",
+                "Nom de l'arbre": "Murier",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Morus alba",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Mûres blanches, Histoire du village, magnanerie autrefois ?",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * sa rareté à Angers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6207972765",
+                    "47.4065763113"
+                ]
+            },
+            "properties": {
+                "Identifiant": "116",
+                "Date": "06/05/19 15:56",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Sequoiadendron giganteum",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Sa silhouette arrondie, accident climatique",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage * la mise en valeur mutuelle bati-végétal",
+                "Biodiversité": "* Un pic vert, noir, ..."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.616775",
+                    "47.411938"
+                ]
+            },
+            "properties": {
+                "Identifiant": "117",
+                "Date": "06/05/19 16:25",
+                "Nom de l'arbre": "Frêne",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Fraxinus angustifolia",
+                "Adresse": "Chemin de halage Loire à vélo Bouchemaine",
+                "Visibilité": "un espace public",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Alignement",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6176185235",
+                    "47.4091802894"
+                ]
+            },
+            "properties": {
+                "Identifiant": "118",
+                "Date": "06/05/19 16:32",
+                "Nom de l'arbre": "Pin",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Pinus radiata",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Pinus radiata à port parasol",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6194511428",
+                    "47.4087625633"
+                ]
+            },
+            "properties": {
+                "Identifiant": "119",
+                "Date": "06/05/19 16:35",
+                "Nom de l'arbre": "Cèdre",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Cedrus atlantica",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6187943369",
+                    "47.4081043147"
+                ]
+            },
+            "properties": {
+                "Identifiant": "120",
+                "Date": "06/05/19 16:38",
+                "Nom de l'arbre": "Cèdre",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Cedrus atlantica",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6188131124",
+                    "47.4077612326"
+                ]
+            },
+            "properties": {
+                "Identifiant": "121",
+                "Date": "06/05/19 16:50",
+                "Nom de l'arbre": "Cormier",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Sorbus domestica",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * sa rareté à Angers * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6195604429",
+                    "47.407242067"
+                ]
+            },
+            "properties": {
+                "Identifiant": "122",
+                "Date": "06/05/19 16:53",
+                "Nom de l'arbre": "Pin",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Pinus sylvestris",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Rareté à Bouchemaine",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * sa rareté à Angers * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6196757779",
+                    "47.4073530255"
+                ]
+            },
+            "properties": {
+                "Identifiant": "123",
+                "Date": "06/05/19 16:55",
+                "Nom de l'arbre": "Chêne",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Quercus robur ’Fastigiata’",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6190320477",
+                    "47.4075749417"
+                ]
+            },
+            "properties": {
+                "Identifiant": "124",
+                "Date": "06/05/19 16:57",
+                "Nom de l'arbre": "Arbre de Judée",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Cercis siliquastrum",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6192533299",
+                    "47.4078004875"
+                ]
+            },
+            "properties": {
+                "Identifiant": "125",
+                "Date": "06/05/19 17:01",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Sequoiadendron giganteum",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Très remarquable ou exceptionnel",
+                "Observations": "Des accidents climatiques ont amené une réitération architecturale",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6199436635",
+                    "47.4076586706"
+                ]
+            },
+            "properties": {
+                "Identifiant": "126",
+                "Date": "06/05/19 17:04",
+                "Nom de l'arbre": "Platane",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Platanus x acerifolia",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6201552227",
+                    "47.4082987723"
+                ]
+            },
+            "properties": {
+                "Identifiant": "127",
+                "Date": "06/05/19 17:10",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Sequoiadendron sempervirens",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * son ancienneté (plus de 50 ans) * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6205324084",
+                    "47.4074687488"
+                ]
+            },
+            "properties": {
+                "Identifiant": "128",
+                "Date": "06/05/19 17:12",
+                "Nom de l'arbre": "Hêtre",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Fagus sylvatica ’Atropurpurea’",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Rareté à Bouchemaine",
+                "Vérification": "Oui",
+                "Remaquable": "* sa rareté à Angers * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.620470047",
+                    "47.4072654386"
+                ]
+            },
+            "properties": {
+                "Identifiant": "129",
+                "Date": "06/05/19 17:18",
+                "Nom de l'arbre": "Tulipier de Virginie",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Liriodendron tulipifera",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Rareté à Bouchemaine",
+                "Vérification": "Oui",
+                "Remaquable": "* la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.62370345",
+                    "47.4063364648"
+                ]
+            },
+            "properties": {
+                "Identifiant": "130",
+                "Date": "06/05/19 17:24",
+                "Nom de l'arbre": "Chêne",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Quercus ilex",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Jardin terrasses avec essences méditerranénnes",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6237128377",
+                    "47.4063428183"
+                ]
+            },
+            "properties": {
+                "Identifiant": "131",
+                "Date": "06/05/19 17:27",
+                "Nom de l'arbre": "Laurier sauce",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Laurus nobilis",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Jardin terrasses riche en persistant",
+                "Vérification": "Oui",
+                "Remaquable": "* marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6236276776",
+                    "47.4062745175"
+                ]
+            },
+            "properties": {
+                "Identifiant": "132",
+                "Date": "06/05/19 17:29",
+                "Nom de l'arbre": "Pin",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Pinus radiata",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "jardin terrasses espèces méditerranéennes",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * marquant dans le paysage * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6234100834",
+                    "47.4060827754"
+                ]
+            },
+            "properties": {
+                "Identifiant": "133",
+                "Date": "06/05/19 17:32",
+                "Nom de l'arbre": "Charme",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Carpinus betulus ’Pendula’",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Pleureur - tonnelle",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * marquant dans le paysage * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6231750548",
+                    "47.4061583377"
+                ]
+            },
+            "properties": {
+                "Identifiant": "134",
+                "Date": "06/05/19 17:35",
+                "Nom de l'arbre": "Frêne",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Fraxinus excelsior ’Pendula’",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Pleureur - tonnelle",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * sa rareté à Angers * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6215425953",
+                    "47.4060988863"
+                ]
+            },
+            "properties": {
+                "Identifiant": "135",
+                "Date": "06/05/19 17:39",
+                "Nom de l'arbre": "Liquidambar",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Liquidambar styraciflua",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Observations": "Rareté à Bouchemaine Replantation récente",
+                "Vérification": "Oui",
+                "Remaquable": "* sa rareté à Angers * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6212562695",
+                    "47.4060575879"
+                ]
+            },
+            "properties": {
+                "Identifiant": "137",
+                "Date": "06/05/19 17:45",
+                "Nom de l'arbre": "Marronnier",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Aesculus hippocastanum",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6214356422",
+                    "47.4055647278"
+                ]
+            },
+            "properties": {
+                "Identifiant": "138",
+                "Date": "06/05/19 17:47",
+                "Nom de l'arbre": "Tilleul",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Tilia cordata",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.6223452464",
+                    "47.4045724131"
+                ]
+            },
+            "properties": {
+                "Identifiant": "140",
+                "Date": "06/05/19 18:00",
+                "Nom de l'arbre": "Epinette du Colorado",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Picea pungens",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Notoire, un repère à l'échelle de votre quartier",
+                "Vérification": "Oui",
+                "Remaquable": "* sa rareté à Angers * la mise en valeur mutuelle bati-végétal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.622427389",
+                    "47.4044314952"
+                ]
+            },
+            "properties": {
+                "Identifiant": "141",
+                "Date": "06/05/19 18:03",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "Sequoiadendron giganteum",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Arbre \"phare\" de l’entrée ouest du village",
+                "Vérification": "Oui",
+                "Remaquable": "* sa hauteur * il est imposant * son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.622427389",
+                    "47.4044314952"
+                ]
+            },
+            "properties": {
+                "Identifiant": "143",
+                "Date": "06/05/19 18:05",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "",
+                "Nom à afficher": "M Liétout et JL Gaignard",
+                "Nom botanique": "séquoia sempervirent",
+                "Adresse": "Bouchemaine",
+                "Visibilité": "un espace privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "\"Faux jumeau\" avec le séquoia voisin",
+                "Vérification": "Oui",
+                "Remaquable": "* son ancienneté (plus de 50 ans) * marquant dans le paysage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.539753",
+                    "47.477994"
+                ]
+            },
+            "properties": {
+                "Identifiant": "152",
+                "Date": "09/05/19 14:03",
+                "Nom de l'arbre": "autre",
+                "Photo": "20190501_122409.jpg (JPG - 570.8 ko)",
+                "Nom à afficher": "Charly C.",
+                "Nom botanique": "Wisteria spp.",
+                "Adresse": "34 rue Florent Cornilleau, 49000 Angers",
+                "Visibilité": "public",
+                "Remarquabilité": "Notoire",
+                "Vérification": "oui",
+                "Remaquable": "* marquant * valeur"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.47503",
+                    "47.407772"
+                ]
+            },
+            "properties": {
+                "Identifiant": "153",
+                "Date": "09/05/19 14:20",
+                "Nom de l'arbre": "autre",
+                "Photo": "20190501_152227.jpg (JPG - 647.5 ko)",
+                "Nom à afficher": "Charly C.",
+                "Nom botanique": "Cupressus spp.",
+                "Adresse": "13 grand rue, 49610 Juigné-sur-Loire",
+                "Visibilité": "privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Il s’agit d’un cyprès dont je ne connais pas l’espèce exacte, localisé dans le parc du monastère de Juigné sur Loire. Le jardinier m’a informé que ça circonférence est de 6,80m à une hauteur d’1,50m. Je ne sais pas si la mesure est récente",
+                "Vérification": "non",
+                "Remaquable": "* hauteur * importance * ancien * valeur"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.478879",
+                    "47.408278"
+                ]
+            },
+            "properties": {
+                "Identifiant": "154",
+                "Date": "09/05/19 14:28",
+                "Nom de l'arbre": "Séquoia",
+                "Photo": "20190501_150930.jpg (JPG - 558.6 ko)",
+                "Nom à afficher": "Charly C.",
+                "Nom botanique": "Sequoiadendron giganteum",
+                "Adresse": "3 rte des bas 49610 Juigné sur Loire",
+                "Visibilité": "privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Séquoia géant dont je n’ai pas mesuré la circonférence, mais elle doit avoisinée les 5m. Il se trouve dans un jardin privé.",
+                "Vérification": "oui",
+                "Remaquable": "* hauteur * importance * ancien"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.321056",
+                    "47.40971"
+                ]
+            },
+            "properties": {
+                "Identifiant": "155",
+                "Date": "09/05/19 14:46",
+                "Nom de l'arbre": "Marronnier",
+                "Photo": "*Sans réponse*",
+                "Nom à afficher": "Charly C.",
+                "Nom botanique": "Aesculus hippocastanum L.",
+                "Adresse": "10 levée du Roi René- Saint-Mathurin-sur-Loire – 49250 Loire-Authion",
+                "Visibilité": "privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Très beau marronnier dans la cour de la mairie de St Mathurin sur Loire. Circonférence non mesurée mais estimée à 3,5-4m à 1,50m de hauteur.",
+                "Vérification": "oui",
+                "Remaquable": "* hauteur * importance"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "-0.635432",
+                    "47.454291"
+                ]
+            },
+            "properties": {
+                "Identifiant": "156",
+                "Date": "09/05/19 14:57",
+                "Nom de l'arbre": "Chêne",
+                "Photo": "20190505_211147.jpg (JPG - 478.5 ko)",
+                "Nom à afficher": "Charly C.",
+                "Nom botanique": "Quercus robur.",
+                "Adresse": "Les Landes de Guinezert, 49070 Beaucouzé",
+                "Visibilité": "privé",
+                "Remarquabilité": "Remarquable ou majestueux",
+                "Observations": "Je ne sais pas s’il faut classer cet arbre de remarquable ou notoire. Il n’est pas très grand mais son houppier est très étalé et vraiment majestueux. J’ai mesuré la circonférence à 1,30m de hauteur : elle est de 3,70m.",
+                "Vérification": "oui",
+                "Remaquable": "* importance * ancien"
+            }
+        }
+    ]
+}
